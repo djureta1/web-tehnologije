@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0
+}
+
+#okvir{
+    background-color: rgb(238, 234, 175)
+}
+#glavniSadrzaj{
+    margin: auto;
+    width: 85%;
+    height: 50em;
+    background-color: rgb(16, 180, 167)
+}
+@media screen and (max-width: 600px){
+    
+    #glavniSadrzaj{
+        width: 100%;
+        height: 50em;
+        background-color: rgb(16, 180, 167)
+    }
+}
+textarea{text-align: left}
+input[type="text"]{width: 50%}
+select[name="sGodine"], select[name="sVjezbe"] , select[name="sZadatak"]{width: 50%}
+form[name="fPostojeca"]{
+    width: 50%;
+    position: relative;
+    margin: auto;
+    top: 10%;
+    box-shadow: 10px 5px 5px black;
+    padding-left: 5em;
+    padding-bottom: 2em;
+    padding-right: 4em;
+    text-align: left;
+    background-color: rgb(212, 183, 102)
+}
+p[id="naziv"]{font-size: 20px}
+button[name="dZadatak"],button[name="submit"], button[name="dodaj"]{float: right; width: 25%}
+form[name="fNova"]{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top:20%;
+    box-shadow: 10px 5px 5px black;
+    text-align: left;
+    padding-left: 5em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    background-color: rgb(117, 178, 231)
+
+}

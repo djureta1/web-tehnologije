@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Dodaj zadatak</TITLE>
+<link rel="stylesheet" type="text/css" href="addZadatak.css">
+<link rel="stylesheet" type="text/css" href="header&footer.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="validacija.js" defer="defer"></script>
+</HEAD>
+<BODY>
+	<div id="header">
+	<img src="students-512.png" id="logo" alt=""/>
+	
+	<div id="meni">
+		<ul >
+            <li><a href="studenti.html">Pregled godina</a></li>
+            <li><a href="addGodina.html">Dodavanje godina</a></li>
+            <li><a href="commiti.html">Pregled studenata</a></li>
+            <li><a href="addVjezba.html">Dodavanje vježbi</a></li>
+            <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+            <li><a href="addStudent.html">Dodavanje studenata</a></li>
+            <li><a href="zadaci.html">Pregled zadataka</a></li>
+            <li><a href="login.html">Login</a></li>
+		</ul>
+    </div>
+    <h1>Dodavanje zadatka</h1>
+    </div>
+    <div id="okvir">
+	<div class="glavniSadrzaj">
+            <form id="noviZadatak">
+                <br>
+            <p id="naziv">Novi zadatak</p><br>
+            <p>Naziv zadatka</p><br>
+            <input id="nazzadatka" type="text" name="naziv" required><br> <br>
+            <p>Tekst postavke *</p> <br>
+            <input type="file" name="postavka" required><br> <br>
+            <p>Vježbe/Spirale</p><br>
+            <select>
+                <option>Vježba X</option>
+            </select><br> <br> 
+            <button onclick="funkcija()" name="dodaj" type="button">Dodaj</button>
+
+
+            </form>
+        </div>
+    </div>
+    <div id="test">
+
+    </div>
+        <div id="footer"><p>Web tehnologije 2018/19</p></div>
+        
+
+</BODY>
+</HTML>
